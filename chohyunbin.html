@@ -22,7 +22,6 @@
         dan = 2;
         document.write("while을 이용한 출력", "<br>");
         while (dan < 10) {
-            su = 2;
             document.write(dan+"단 <br>");
             while(su < 10){
 
@@ -30,12 +29,12 @@
                 su++;
             }
             document.write("<br>");
+            su = 2;
             dan++;
         }
         
         dan = 2;
         document.write("do-while을 이용한 출력", "<br>");
-        su = 2;
         do {
             document.write(dan+"단 <br>");
             do {
@@ -43,6 +42,7 @@
             su++;
             } while (su < 10)
             document.write("<br>");
+            su = 2;
             dan++;
         } while (dan < 10)
     </script>
